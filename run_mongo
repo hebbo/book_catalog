@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name mybook-catalog-mongodb -p 27057:27017 mongo:3.0.15 -d mongo --storageEngine wiredTiger
